@@ -9,17 +9,33 @@ import Functional from './Components/Functional'
 import EventBinding from './Components/EventBinding';
 import Conditional from './Components/Conditional';
 import Form from './Components/Form'
+import Fragments from './Components/Fragments';
+import Table from './Components/Table'
+import NameList from './Components/NameList'
+import Stylesheet from './Components/Stylesheet'
+import Inline from './Components/Inline';
+import styles from './appStyles.module.css'
+import LifecyleMounting from './Components/LifecycleMounting';
+import HttpGet from './Components/HttpGet'
+import PostForm from './Components/PostForm';
+
 
 class App extends Component {
   render () {
     return (
       <div className="App">
-        <EventBinding />
+        {/* <HttpGet /> */}
+        {/* <PostForm /> */}
+        {/* <LifecyleMounting /> */}
+        {/* <h2 className={styles.heading}>Welcome</h2> */}
+        {/* <Stylesheet name={true} /> */}
+        {/* <Inline /> */}
+        {/* <EventBinding />
         <Form />
-        <Conditional />
+        <Conditional /> */}
         {/* <User /> */}
         {/* <FunctionalClick /> */}
-        <Message />
+        {/* <Message /> */}
         {/* <Welcome />*/}
         {/* <Functional /> */}
         {/* <Hello name = "Facebook">
@@ -31,6 +47,10 @@ class App extends Component {
         <Hello name = "Instagram">
           <p>This is third element</p>
         </Hello> */}
+        <Fragments />
+        {/* <Table /> */}
+        {/* <NameList /> */}
+        {/* <Stylesheet /> */}
       </div>
     );
   }
